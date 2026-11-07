@@ -19,6 +19,6 @@ Add-on-Store → ⋮ → Repositories eintragen.
    Administration → Monitoring → Schiffe & Landestellen einen Bordwächter anlegen, Code erzeugen, am Gerät eingeben.
 
 ## MQTT-Port
-Der Mosquitto von Home Assistant belegt Port 1883. Der Sensor-Empfänger des Add-ons läuft deshalb auf **1884**
+Der Mosquitto von Home Assistant belegt Port 1883 (und 1884 für Websockets). Der Sensor-Empfänger des Add-ons läuft deshalb auf **1885**
 (einstellbar unter Konfiguration → `mqtt_port`). Sensoren und das Web-IO tragen als MQTT-Server
-`<Home-Assistant-Rechner>:1884` ein. Wird Mosquitto später entfernt, kann der Port auf 1883 zurück.
+`<Home-Assistant-Rechner>:1885` ein. Wird Mosquitto später entfernt, kann der Port auf 1883 zurück.

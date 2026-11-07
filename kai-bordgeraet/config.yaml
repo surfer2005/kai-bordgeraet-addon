@@ -1,5 +1,5 @@
 name: KAI-Bordgerät
-version: "0.1.109"
+version: "0.1.109-1"
 slug: kai_bordgeraet
 description: Bordwächter aus KAI (Sensoren, Licht über DALI, GPS, Smartmeter) – Übergang für Schiffe mit Home Assistant
 url: https://github.com/surfer2005/kai-bordgeraet-addon
@@ -13,6 +13,6 @@ init: false
 host_network: true
 webui: "http://[HOST]:[PORT:8090]/"
 options:
-  mqtt_port: 1884
+  mqtt_port: 1885
 schema:
   mqtt_port: port
