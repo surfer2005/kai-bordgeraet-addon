@@ -1,5 +1,5 @@
 name: KAI-Bordgerät
-version: "0.1.112-1"
+version: "0.1.113-1"
 slug: kai_bordgeraet
 description: Bordwächter aus KAI (Sensoren, Licht über DALI, GPS, Smartmeter) – Übergang für Schiffe mit Home Assistant
 url: https://github.com/surfer2005/kai-bordgeraet-addon
