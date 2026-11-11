@@ -1,5 +1,8 @@
 # Änderungsverlauf
 
+## 0.1.124-1
+- MQTT-B (ein Broker-Login je Bordwächter), OTA-Force (Neu-Flashen auch bei gleicher Version) und Sensor-ESPHome-Log live.
+
 ## 0.1.119-1
 - Smartmeter: Host (und Port) je Zähler konfigurierbar — Schiffe mit Zählern auf mehreren IP-Adressen werden jetzt vollständig ausgelesen.
 
