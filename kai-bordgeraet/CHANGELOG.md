@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+## 0.1.127-1
+- AirPlay-Empfänger (Bildschirm: Bild spiegeln über uxplay, Bordmusik: Ton vom iPad über shairport-sync), aus KAI ein-/ausschaltbar mit Name und PIN — standardmäßig aus.
+- Sensor-Verbindungsstand wird ehrlich gemeldet (KAI erkennt einen MQTT-Abbruch sofort statt erst nach 10 Min.).
+- Abgelehnte MQTT-Anmeldung wird mit Client-Name und IP protokolliert (fremdes Gerät im Bordnetz auffindbar).
+
 ## 0.1.124-1
 - MQTT-B (ein Broker-Login je Bordwächter), OTA-Force (Neu-Flashen auch bei gleicher Version) und Sensor-ESPHome-Log live.
 
