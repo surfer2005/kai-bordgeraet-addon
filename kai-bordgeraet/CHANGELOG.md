@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## 0.1.136-1
+- Bordmusik ohne Monitor: meldet sich die Abspielseite 90 Sekunden nach dem Start nicht, obwohl KAI erreichbar ist,
+  startet das Gerät den Browser in der anderen Betriebsart neu (Desktop-Sitzung ↔ unsichtbar).
+
 ## 0.1.135-1
 - AirPlay-Empfänger läuft nur noch, solange in KAI „AirPlay“ als Quelle gewählt ist (mit Dauer); beendet sich auch an Bord ohne Netz über „Zurück zum Zeitplan“.
 - Steckdosen (Shelly-Relais) lassen sich aus KAI schalten (0.1.134).
