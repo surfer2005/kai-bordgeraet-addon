@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## 0.1.138-1
+- Shelly: „MQTT-Steuerung einschalten“ aus KAI — das Bordgerät stellt am Shelly im Schiffsnetz MQTT.SetConfig
+  (enable_rpc + enable_control) um und startet ihn auf Wunsch neu; Ergebnis als Rückmeldung in KAI. Nur Adressen im Bordnetz.
+
 ## 0.1.137-1
 - Bordmusik: veraltete Browser-Profilsperre wird vor jedem Start entfernt (nach geändertem Gerätenamen startete der
   Browser sonst nicht); schweigt die Abspielseite auch nach dem Wechsel der Betriebsart, startet er mit frischem Profil.
