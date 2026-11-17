@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## 0.1.137-1
+- Bordmusik: veraltete Browser-Profilsperre wird vor jedem Start entfernt (nach geändertem Gerätenamen startete der
+  Browser sonst nicht); schweigt die Abspielseite auch nach dem Wechsel der Betriebsart, startet er mit frischem Profil.
+
 ## 0.1.136-1
 - Bordmusik ohne Monitor: meldet sich die Abspielseite 90 Sekunden nach dem Start nicht, obwohl KAI erreichbar ist,
   startet das Gerät den Browser in der anderen Betriebsart neu (Desktop-Sitzung ↔ unsichtbar).
