@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+## 0.1.141-1
+- Smartmeter: ein Zähler, der nicht antwortet (z. B. stromloser Landanschluss), bremst den Takt nicht mehr. Antwortet schon
+  die erste Anfrage nicht, lässt das Bordgerät seine übrigen Werte in diesem Durchgang aus und fragt ihn beim nächsten wieder.
+  Vorher wartete es je Wert 5 Sekunden, und alle Zähler kamen nur noch alle 1,5 bis 2,5 Minuten statt alle 30 Sekunden.
+
 ## 0.1.140-1
 - Smartmeter ohne Verbindung zu KAI: die Zählerwerte gehen nicht mehr verloren. Das Bordgerät liest mit der zuletzt bekannten
   Zähler-Einstellung weiter, merkt sich ohne Netz alle 5 Minuten einen Satz Werte mit Messzeit (in /data, übersteht Neustart
