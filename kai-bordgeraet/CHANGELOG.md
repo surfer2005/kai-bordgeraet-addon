@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+## 0.1.140-1
+- Smartmeter ohne Verbindung zu KAI: die Zählerwerte gehen nicht mehr verloren. Das Bordgerät liest mit der zuletzt bekannten
+  Zähler-Einstellung weiter, merkt sich ohne Netz alle 5 Minuten einen Satz Werte mit Messzeit (in /data, übersteht Neustart
+  und Update, bis etwa 14 Tage) und liefert sie nach, sobald KAI wieder erreichbar ist — älteste zuerst.
+
 ## 0.1.138-1
 - Shelly: „MQTT-Steuerung einschalten“ aus KAI — das Bordgerät stellt am Shelly im Schiffsnetz MQTT.SetConfig
   (enable_rpc + enable_control) um und startet ihn auf Wunsch neu; Ergebnis als Rückmeldung in KAI. Nur Adressen im Bordnetz.
