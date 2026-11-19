@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+## 0.1.145-1
+- ESPHome-Sensoren: Die Firmware wird mit Größenangabe ausgeliefert. Ohne sie brach ein ESP8266 (z. B. ESP-01S) das Update
+  ab („Flash erase failed“) — ein Update aus der Ferne war für diese Sensoren bisher nicht möglich.
+- Update-Fortschritt: Das Bordgerät zählt mit, wie viel der Sensor schon geladen hat, und meldet es an KAI.
+
 ## 0.1.144-1
 - Sensoren: Meldet ein Fühler „nan“ (ESPHome, z. B. DHT11 liest nicht), ist das kein Messwert mehr. Vorher nahm das Bordgerät
   es als Zahl an, die Sendung an KAI ging leer raus (HTTP 400), blieb im Puffer stecken und hielt die Werte ALLER Sensoren dieses
