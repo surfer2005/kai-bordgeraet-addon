@@ -1,5 +1,11 @@
 # Änderungsverlauf
 
+## 0.1.143-1
+- Sensoren: Der MQTT-Empfänger protokolliert jetzt auch Verbindungen, die nie angemeldet wurden — mit IP und Grund
+  (falsche Protokollversion, unvollständige Anmeldung, erstes Paket keine Anmeldung, Abbruch). Vorher stand dort nur ein
+  falsches Kennwort. Angenommene Anmeldungen erscheinen kurz („Sensor angemeldet“, je Gerät höchstens alle 6 Stunden),
+  Nachrichten unter einem Thema, das zu keinem Sensor in KAI passt, ebenfalls.
+
 ## 0.1.142-1
 - GPS: Hat der Teltonika-Router keinen aktuellen GPS-Fix (älter als 5 Minuten), übernimmt das Bordgerät seine letzte
   Koordinate nicht mehr als Position. Der Router behält sie sonst tagelang, und das Schiff „stand“ in KAI, obwohl es fuhr.
