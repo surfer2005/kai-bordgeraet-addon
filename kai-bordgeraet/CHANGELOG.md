@@ -1,5 +1,12 @@
 # Änderungsverlauf
 
+## 0.1.146-1
+- ESPHome-Sensoren: Ein Anstoß „Auf Sensor aufspielen“ aus KAI wird dauerhaft gemerkt. Vorher spielte das Bordgerät nach
+  jedem eigenen Neustart dieselbe Firmware noch einmal auf.
+- ESPHome-Sensoren: Die IP-Adresse kommt aus der Verbindung des Sensors (für den Link zur Geräteseite in KAI) — die eigene
+  Meldung des Sensors kam nicht zuverlässig an.
+- Neue Firmware spielt das Bordgerät nur noch auf, wenn sie in KAI ausdrücklich freigegeben ist (gebaut allein genügt nicht mehr).
+
 ## 0.1.145-1
 - ESPHome-Sensoren: Die Firmware wird mit Größenangabe ausgeliefert. Ohne sie brach ein ESP8266 (z. B. ESP-01S) das Update
   ab („Flash erase failed“) — ein Update aus der Ferne war für diese Sensoren bisher nicht möglich.
