@@ -1,5 +1,11 @@
 # Änderungsverlauf
 
+## 0.1.144-1
+- Sensoren: Meldet ein Fühler „nan“ (ESPHome, z. B. DHT11 liest nicht), ist das kein Messwert mehr. Vorher nahm das Bordgerät
+  es als Zahl an, die Sendung an KAI ging leer raus (HTTP 400), blieb im Puffer stecken und hielt die Werte ALLER Sensoren dieses
+  Bordgeräts auf. Zusätzlich geht nie mehr eine leere Anfrage an KAI, wenn das Verpacken scheitert.
+- Die Selbstanzeige von ESPHome (esphome/discover/…) erscheint nicht mehr als „Nachricht ohne passenden Sensor“.
+
 ## 0.1.143-1
 - Sensoren: Der MQTT-Empfänger protokolliert jetzt auch Verbindungen, die nie angemeldet wurden — mit IP und Grund
   (falsche Protokollversion, unvollständige Anmeldung, erstes Paket keine Anmeldung, Abbruch). Vorher stand dort nur ein
