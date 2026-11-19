@@ -1,5 +1,11 @@
 # Änderungsverlauf
 
+## 0.1.142-1
+- GPS: Hat der Teltonika-Router keinen aktuellen GPS-Fix (älter als 5 Minuten), übernimmt das Bordgerät seine letzte
+  Koordinate nicht mehr als Position. Der Router behält sie sonst tagelang, und das Schiff „stand“ in KAI, obwohl es fuhr.
+- Smartmeter: Messwerte bekommen ihre Messzeit erst, wenn die Uhr seit dem Start einmal übers Netz abgeglichen ist. Davor
+  bleibt sie leer und KAI nimmt die Ankunftszeit — sonst trug ein Wert nach einem Neustart die alte Uhrzeit.
+
 ## 0.1.141-1
 - Smartmeter: ein Zähler, der nicht antwortet (z. B. stromloser Landanschluss), bremst den Takt nicht mehr. Antwortet schon
   die erste Anfrage nicht, lässt das Bordgerät seine übrigen Werte in diesem Durchgang aus und fragt ihn beim nächsten wieder.
