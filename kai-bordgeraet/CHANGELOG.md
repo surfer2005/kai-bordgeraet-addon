@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## 0.1.150-1
+- ESPHome-Sensoren: Das Bordgerät nennt dem Sensor beim Update die richtige Chip-Familie (z. B. „ESP32-C3“ beim
+  ESP32-C3 SuperMini). Vorher stand immer „ESP32“ — ein ESP32-C3 fand deshalb keine passende Firmware.
+
 ## 0.1.149-1
 - Seekarte: Der eingestellte Maßstab bleibt, wenn die Position kurz fehlt (GPS ohne Fix) — vorher passte die Karte sich dann auf die
   ganze Route ein und der Maßstab sprang.
