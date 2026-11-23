@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+## 0.1.149-1
+- Seekarte: Der eingestellte Maßstab bleibt, wenn die Position kurz fehlt (GPS ohne Fix) — vorher passte die Karte sich dann auf die
+  ganze Route ein und der Maßstab sprang.
+- Neue Rolle „Anzeigerwächter“ (für die Zielanzeiger an Land, nicht im Add-on genutzt).
+
 ## 0.1.146-1
 - ESPHome-Sensoren: Ein Anstoß „Auf Sensor aufspielen“ aus KAI wird dauerhaft gemerkt. Vorher spielte das Bordgerät nach
   jedem eigenen Neustart dieselbe Firmware noch einmal auf.
