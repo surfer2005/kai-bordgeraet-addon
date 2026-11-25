@@ -1,5 +1,13 @@
 # Änderungsverlauf
 
+## 0.1.152-1
+- Pünktlich-Pilot und Seekarte: Kommt das Schiff zu spät an, bleibt die laufende Fahrt nach der Soll-Ankunft stehen,
+  bis es am Ziel festgemacht hat (Reststrecke, „Hafeneinfahrt“, „N min zu spät“). Vorher sprang die Anzeige zur
+  Soll-Ankunft schon auf die nächste Abfahrt, obwohl das Schiff noch einfuhr. Ohne GPS-Position wie bisher nach der Uhr;
+  höchstens so viele Minuten, wie in KAI eingestellt (Vorgabe 30).
+- In der Hafeneinfahrt zeigt der Pilot immer „Hafeneinfahrt“, auch wenn das Schiff zu spät ist — die Verspätung steht
+  in der Prognose. „Zu spät +N min“ zählt nach der Soll-Ankunft ab der Soll-Ankunft.
+
 ## 0.1.151-1
 - Pünktlich-Pilot und Seekarte: Steht das Schiff nach der Soll-Abfahrt noch am Steg, zeigt die Kachel „Prognose“
   „Abfahrt fällig“ bzw. „überfällig seit N min“ statt einer Hochrechnung aus dem Stillstand (vorher stieg dort
