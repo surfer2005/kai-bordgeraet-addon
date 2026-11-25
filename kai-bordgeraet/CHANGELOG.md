@@ -1,5 +1,18 @@
 # Änderungsverlauf
 
+## 0.1.151-1
+- Pünktlich-Pilot und Seekarte: Steht das Schiff nach der Soll-Abfahrt noch am Steg, zeigt die Kachel „Prognose“
+  „Abfahrt fällig“ bzw. „überfällig seit N min“ statt einer Hochrechnung aus dem Stillstand (vorher stieg dort
+  „N min zu spät“ auf Tausende Minuten).
+- Fahrprofil: Liefert KAI je Strecke ein Fahrprofil (Hafenausfahrt, Reisetempo, Hafeneinfahrt, Höchsttempo des
+  Schiffs), rechnet das Gerät Restzeit, Prognose und „Zu spät“ damit. In der Hafenausfahrt und -einfahrt gibt es
+  keine Tempo-Empfehlung mehr („Hafenausfahrt“/„Hafeneinfahrt“), das Soll-Tempo gilt für die freie Strecke. Ohne
+  Fahrprofil (älterer KAI-Stand) rechnet das Gerät wie bisher.
+- Sensoren: Kündigt KAI es an, reicht das Gerät die MQTT-Meldungen der Sensoren (Shelly, ESPHome, Web-IO) unverändert an KAI
+  weiter (ohne Netz gepuffert); das Übersetzen macht KAI. Eine neue Sensorart braucht damit kein neues Bordgerät mehr. Grenzwerte
+  für Lampe/Hupe ohne Netz kommen als Regeln aus KAI, die Chip-Familie für Funk-Updates wird ungeprüft durchgereicht. Schalten
+  (Steckdosen, ESPHome-Relais) als fertige Nachricht aus KAI. An einem älteren KAI-Stand übersetzt das Gerät wie bisher selbst.
+
 ## 0.1.150-1
 - ESPHome-Sensoren: Das Bordgerät nennt dem Sensor beim Update die richtige Chip-Familie (z. B. „ESP32-C3“ beim
   ESP32-C3 SuperMini). Vorher stand immer „ESP32“ — ein ESP32-C3 fand deshalb keine passende Firmware.
