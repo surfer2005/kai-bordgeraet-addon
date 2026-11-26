@@ -1,5 +1,11 @@
 # Änderungsverlauf
 
+## 0.1.153-1
+- Seekarte im Hochformat kompakter: Kopfzeile, Wetter/Pegel, Tacho, Hinweise und Fakten kleiner, die Karte bekommt den
+  Rest (Monitor 1280×1024 hochkant). Bei 150 % Skalierung bleiben während der Fahrt statt 112 nun 386 Pixel Kartenhöhe.
+- Neue Auswahl „Kompakt / Groß“ in der Kopfzeile der Seekarte (je Monitor gemerkt, Vorgabe Kompakt); „Groß“ ist die
+  bisherige Darstellung, z. B. für einen größeren Monitor.
+
 ## 0.1.152-1
 - Pünktlich-Pilot und Seekarte: Kommt das Schiff zu spät an, bleibt die laufende Fahrt nach der Soll-Ankunft stehen,
   bis es am Ziel festgemacht hat (Reststrecke, „Hafeneinfahrt“, „N min zu spät“). Vorher sprang die Anzeige zur
