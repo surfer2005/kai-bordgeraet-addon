@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## 0.1.154-1
+- Seekarte im Hochformat, Kompakt: Uhrzeit direkt hinter dem Schiffsnamen, Knöpfe schmaler, ohne Logo und ohne das Wort
+  „Kurs“ — die Kopfzeile passt ab etwa 768 Pixel Breite in eine Zeile (vorher rutschten Uhr und ☾ in eine zweite).
+
 ## 0.1.153-1
 - Seekarte im Hochformat kompakter: Kopfzeile, Wetter/Pegel, Tacho, Hinweise und Fakten kleiner, die Karte bekommt den
   Rest (Monitor 1280×1024 hochkant). Bei 150 % Skalierung bleiben während der Fahrt statt 112 nun 386 Pixel Kartenhöhe.
