@@ -1,5 +1,10 @@
 # Änderungsverlauf
 
+## 0.1.155-1
+- „Seekarte im Hochformat: Kompakt / Groß“ ist jetzt eine Einstellung des Geräts (in KAI unter Anzeige am Monitor,
+  Vorgabe Kompakt) statt einer Auswahl am Monitor — dort lässt sie sich nicht mehr verstellen. Das KAI-Logo steht wieder
+  in der Kopfzeile, die auch bei 150 % Skalierung in eine Zeile passt.
+
 ## 0.1.154-1
 - Seekarte im Hochformat, Kompakt: Uhrzeit direkt hinter dem Schiffsnamen, Knöpfe schmaler, ohne Logo und ohne das Wort
   „Kurs“ — die Kopfzeile passt ab etwa 768 Pixel Breite in eine Zeile (vorher rutschten Uhr und ☾ in eine zweite).
