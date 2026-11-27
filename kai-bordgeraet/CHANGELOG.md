@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## 0.1.156-1
+- Das Passwort der Geräteseite kommt jetzt in jeder Rolle aus KAI (mit dem Herzschlag) — auch beim Anzeigerwächter, der
+  keine Einstellungen aus KAI holt; seine Konfig-Seite blieb sonst trotz Passwort in KAI offen.
+
 ## 0.1.155-1
 - „Seekarte im Hochformat: Kompakt / Groß“ ist jetzt eine Einstellung des Geräts (in KAI unter Anzeige am Monitor,
   Vorgabe Kompakt) statt einer Auswahl am Monitor — dort lässt sie sich nicht mehr verstellen. Das KAI-Logo steht wieder
